@@ -1,7 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { FiInstagram } from "react-icons/fi";
-import { FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaTwitter, FaYoutube, FaFacebook, FaWhatsapp} from "react-icons/fa";
 import styled from "styled-components";
 import banner from "../assets/banner1.png";
 import { Container, Row, Col } from "react-bootstrap";
@@ -33,7 +33,9 @@ const Banner = () => {
 
                 <span className="rates">Rated 4.8/5.0 (243 reviews)</span>
               </div> */}
-
+              <div className="mini-content">
+                Welcome to CBusinessLabs
+              </div>
               <h1 className="create">Create your portfolio in minutes.</h1>
               <p className="mini-content">
                 With Fiber, you can setup your own personal portfolio in minutes
@@ -65,6 +67,23 @@ const Banner = () => {
                   >
                     <FaYoutube className="icon" />
                   </a>
+
+                  <a
+                    href="https://twitter.com/?lang=en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaFacebook className="icon" />
+                  </a>
+
+                  <a
+                    href="https://twitter.com/?lang=en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaWhatsapp className="icon" />
+                  </a>
+
                 </div>
 
                 {/* <div className="mark1">
@@ -148,23 +167,28 @@ const BannerStyle = styled.div`
     border: none !important;
   }
 
-  .signin-btn {
-    color: #fff !important;
-    font-weight: 600;
-    text-decoration: underline;
-    margin: 0.5rem 0 !important;
-    &:hover {
-      text-decoration: none;
-      background-color: #4d13d1 !important;
-      color: #fff !important;
-      padding: 1rem 1.5rem !important;
-    }
+  .intro {
+
   }
-  .signup-btn {
-    color: #fff;
-    background-color: #4d13d1 !important;
-    padding: 1rem !important;
-  }
+
+  // .signin-btn {
+  //   color: #fff !important;
+  //   font-weight: 600;
+  //   text-decoration: underline;
+  //   margin: 0.5rem 0 !important;
+  //   &:hover {
+  //     text-decoration: none;
+  //     background-color: #4d13d1 !important;
+  //     color: #fff !important;
+  //     padding: 1rem 1.5rem !important;
+  //   }
+  // }
+
+  // .signup-btn {
+  //   color: #fff;
+  //   background-color: #4d13d1 !important;
+  //   padding: 1rem !important;
+  // }
 
   .viewex {
     color: #4d13d1 !important;

@@ -7,7 +7,7 @@ const Header = () => {
       <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="#" className="brandname">
-            Fiber
+            C - BusinessLabs
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -31,7 +31,7 @@ const Header = () => {
             </Nav>
 
             <Button variant="outline-success mx-2" className="signin-btn">
-              Sign In
+              {/* Sign In */}
             </Button>
             {/* <Button className="signup-btn">
               <a href="/signup">Sign Up</a>
