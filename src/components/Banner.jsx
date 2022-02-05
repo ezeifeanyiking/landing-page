@@ -34,12 +34,11 @@ const Banner = () => {
                 <span className="rates">Rated 4.8/5.0 (243 reviews)</span>
               </div> */}
               <div className="mini-content">
-                Welcome to CBusinessLabs
+                Welcome to C-BusinessLabs
               </div>
-              <h1 className="create">Create your portfolio in minutes.</h1>
+              <h1 className="create">Lorem ipsum dolor sit amet..</h1>
               <p className="mini-content">
-                With Fiber, you can setup your own personal portfolio in minutes
-                with dozens of premade, beautiful templates.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis quisquam placeat dicta, nesciunt iure architecto obcaecati nulla quos dolor, natus odio magni quo exercitationem voluptate, unde ex aliquid porro?
               </p>
 
               <div className="no-gutters">
@@ -162,14 +161,12 @@ const BannerStyle = styled.div`
       transform: scale(1.5, 1.5);
     }
   }
-  .signin-btn,
-  .signup-btn {
-    border: none !important;
-  }
 
-  .intro {
+  // .signin-btn,
+  // .signup-btn {
+  //   border: none !important;
+  // }
 
-  }
 
   // .signin-btn {
   //   color: #fff !important;

@@ -1,13 +1,25 @@
 import React from "react";
 import { Nav, Navbar, Container, Button } from "react-bootstrap";
+import { SiBlueprint } from "react-icons/si";
 import styled from "styled-components";
 const Header = () => {
   return (
     <HeaderStyle>
       <Navbar expand="lg">
         <Container>
+          
           <Navbar.Brand href="#" className="brandname">
-            C - BusinessLabs
+
+          <a
+          href="https://twitter.com/?lang=en"
+          target="_blank"
+          rel="noreferrer"
+          >
+            <SiBlueprint className="icon" />
+          </a>
+
+          - BusinessLabs
+          
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -30,9 +42,10 @@ const Header = () => {
               </Nav.Link> */}
             </Nav>
 
-            <Button variant="outline-success mx-2" className="signin-btn">
-              {/* Sign In */}
-            </Button>
+            {/* <Button variant="outline-success mx-2" className="signin-btn">
+              Sign In
+            </Button> */}
+
             {/* <Button className="signup-btn">
               <a href="/signup">Sign Up</a>
             </Button> */}
@@ -54,29 +67,44 @@ const HeaderStyle = styled.div`
     font-weight: 400;
     color: #ffffff !important;
   }
-  .signin-btn,
-  .signup-btn {
-    border: none !important;
-  }
 
-  .signin-btn {
-    color: #fff !important;
-    font-weight: 600;
+  .icon {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    margin-right: 1rem;
+    transition: all ease-out 0.5s;
 
     &:hover {
-      background-color: transparent !important;
+      color: red;
+      transform: scale(1.5, 1.5);
     }
   }
-  .signup-btn {
-    color: #fff;
-    background-color: #4d13d1 !important;
-    padding: 0.5rem 1.5rem !important;
 
-    a{
-      color: #fff ;
-      text-decoration: none;
-    }
-  }
+  // .signin-btn,
+  // .signup-btn {
+  //   border: none !important;
+  // }
+
+  // .signin-btn {
+  //   color: #fff !important;
+  //   font-weight: 600;
+
+  //   &:hover {
+  //     background-color: transparent !important;
+  //   }
+  // }
+
+  // .signup-btn {
+  //   color: #fff;
+  //   background-color: #4d13d1 !important;
+  //   padding: 0.5rem 1.5rem !important;
+
+  //   a{
+  //     color: #fff ;
+  //     text-decoration: none;
+  //   }
+  // }
 
   @media only screen and (max-width: 999px) {
     padding: 1rem 0;
