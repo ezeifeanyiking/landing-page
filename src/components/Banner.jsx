@@ -36,9 +36,9 @@ const Banner = () => {
               <div className="mini-content">
                 Welcome to C-BusinessLabs
               </div>
-              <h1 className="create">Lorem ipsum dolor sit amet..</h1>
+              <h1 className="create">... Business as Science</h1>
               <p className="mini-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem perspiciatis quisquam placeat dicta, nesciunt iure architecto obcaecati nulla quos dolor, natus odio magni quo exercitationem voluptate, unde ex aliquid porro?
+                We are a business laboratory. How else does one describe a laboratory? We systematically perform scientific experiments and research on all things business.
               </p>
 
               <div className="no-gutters">
